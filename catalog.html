@@ -116,25 +116,30 @@
             </li>
           </ul>
         </fieldset>
-          <button class="button-current" type="submit">Применить</button>
-         <button class="button" type="submit">Сбросить</button>
-        </form>
-        <select class="select-control" aria-label="Сортировка">
+           <button class="button-current" type="submit">Применить</button>
+          <button class="button" type="submit">Сбросить</button>
+          </form>
+        <section>
+            <p class="search">
+              Найдено страниц:
+              <span class="search-result">38</span>
+            </p>
+         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
-        </select>
-        <a href="#" class="button button-light">
+         </select>
+         <a href="#" class="button button-light">
           <span class="visually-hidden">Показать список</span>
-        </a>
-        <a class="button" href="#">
+         </a>
+         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <a class="button" href="#">
+         </a>
+         <a class="button" href="#">
           <span class="visually-hidden">Показать карточки</span>
-        </a>
-        <ul class="product-card">
-          <li class="product-card">
+         </a>
+         <ul class="product-card">
+           <li class="product-card">
            <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="#" alt="">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
@@ -142,9 +147,9 @@
            <b class="product-card-price">Гостиница</b>
            <b class="product-card-price">От 4000 ₽</b>
            <a class="product-card-button button" href="#">Подробнее</a>
-           <button class="button" type="favorites">В избранное</button>
-          </li>
-         <li class="product-card">
+           <button class="button-favorites" type="button">В избранное</button>
+           </li>
+           <li class="product-card">
            <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="#" alt="">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
@@ -152,9 +157,9 @@
            <b class="product-card-price">Гостиница</b>
            <b class="product-card-price">От 5000 ₽</b>
            <a class="product-card-button button" href="#">Подробнее</a>
-           <button class="button" type="favorites">В избранное</button>
-         </li>
-         <li class="product-card">
+           <button class="button-favorites" type="button">В избранное</button>
+           </li>
+           <li class="product-card">
            <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="#" alt="">
             <h3 class="product-card-title">Desert Quail Inn</h3>
@@ -162,9 +167,9 @@
            <b class="product-card-price">Гостиница</b>
            <b class="product-card-price">От 2500 ₽</b>
            <a class="product-card-button button" href="#">Подробнее</a>
-           <button class="button" type="favorites">В избранное</button>
-         </li>
-         <li class="product-card">
+           <button class="button-favorites" type="button">В избранное</button>
+           </li>
+           <li class="product-card">
            <a class="product-card-link" href="product.html">
             <img class="product-card-image" src="#" alt="">
             <h3 class="product-card-title">GreenTree Inn</h3>
@@ -172,9 +177,10 @@
            <b class="product-card-price">Гостиница</b>
            <b class="product-card-price">От 1500 ₽</b>
            <a class="product-card-button button" href="#">Подробнее</a>
-           <button class="button" type="favorites">В избранное</button>
-         </li>
-        </ul>
+           <button class="button-favorites" type="button">В избранное</button>
+           </li>
+          </ul>
+        </section>
         <ol class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
@@ -191,10 +197,8 @@
           <li class="pagination-item">
             <a class="pagination-link" >...</a>
           </li>
-            <a class="pagination-link" href="#">10</a>
-
-
         </ol>
+        <a class="pagination-link" href="#">10</a>
         <button class="button pagination-show-more" type="button">Показать ещё</button>
     </section>
     <article class="subscribe">
