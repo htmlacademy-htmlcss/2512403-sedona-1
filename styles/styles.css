@@ -234,8 +234,6 @@ color: #000000;
 }
 
 .select-control {
-  font-size: 18px;
-  line-height: 21px;
   font-weight: 400;
 }
 
@@ -247,15 +245,11 @@ color: #000000;
   text-decoration: none;
 }
 .product-card-name{
-  font-size: 18px;
-  line-height: 21px;
   font-weight: 400;
   text-decoration: none;
 }
 
 .product-card-price{
-  font-size: 18px;
-  line-height: 21px;
   font-weight: 400;
   text-decoration: none;
   text-align: right;
