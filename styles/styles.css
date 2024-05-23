@@ -46,7 +46,7 @@ color: #000000;
   font-weight: 700;
   text-align: center;
   color: inherit;
-  text-decoration: solid;
+  text-decoration: underline;
 }
 
 .navigation-link {
@@ -58,7 +58,7 @@ color: #000000;
   text-decoration: none;
 }
 
-.main-index {
+.town {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/index/main/indexbackground.jpg");
@@ -135,14 +135,14 @@ color: #000000;
   text-decoration: none;
 }
 
-.subscribe {
+.subscribe{
   color: #000000;
   background-color: #ffffff;
-  background-image: url("../images/index/main/indexbackground.jpg");
+  background-image: url("../images/index/main/backgrounsecond.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-
 }
+
 
 .subscribe-invitation {
   font-weight: 700;
@@ -183,7 +183,16 @@ color: #000000;
   text-decoration: none;
 }
 
+.hotels-filters {
+  background-image: url("../images/catalog/main/backgroundcatalog.jpg");
+  color:#ffffff;
+  background-color: #000000;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .inner-header-title {
+  color: #ffffff;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -192,8 +201,6 @@ color: #000000;
 
 .breadcrumbs {
   color: #ffffff;
-  background-color: #82B3D3;
-  background-image: url("../images/index/main/indexbackground.jpg");
 }
 
 .breadcrumbs-link {
@@ -201,10 +208,10 @@ color: #000000;
 }
 
 .catalog-filter-title {
+  color: #ffffff;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  color: #242424;
   text-transform: capitalize;
 }
 
@@ -213,7 +220,6 @@ color: #000000;
   line-height: 23px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #000000;
 }
 
 .button-current {
@@ -223,6 +229,28 @@ color: #000000;
   text-align: center;
   color: #000000;
   background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-catalog{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-catalog-current{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color:#82B3D3;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -310,4 +338,11 @@ color: #000000;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+}
+
+.subscribe-catalog{
+  color: #000000;
+  background-color: #ffffff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
