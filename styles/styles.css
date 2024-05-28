@@ -132,11 +132,11 @@ color: #000000;
 }
 
 .hotel-search-name {
- font-weight: 700;
- font-size: 30px;
- line-height: 36px;
- text-align: center;
- text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hotel-search-description {
@@ -198,7 +198,7 @@ color: #000000;
 }
 
 .navigation-list{
- list-style: none;
+  list-style: none;
 }
 
 .contacts-phone{
@@ -208,6 +208,7 @@ color: #000000;
   line-height: 40px;
   text-align: center;
   text-decoration: none;
+  color: #000000;
 }
 
 .hotels-filters {
