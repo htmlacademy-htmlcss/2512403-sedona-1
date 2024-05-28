@@ -30,6 +30,9 @@ body {
   line-height: 21px;
   color:#333333;
   background-color:#ffffff ;
+
+  outline: 5px solid rgba(225, 99, 78, 0.5);
+  outline-offset: -5px;
 }
 
 .main-container{
@@ -50,6 +53,15 @@ body {
 
 .page-header {
 color: #000000;
+}
+
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+
+  outline: 5px solid rgba(225, 99, 78, 0.5);
+  outline-offset: -5px;
 }
 
 .navigation-link-current {
@@ -209,8 +221,16 @@ color: #000000;
   background-color: #ffffff;
 }
 
-.navigation-list{
+.navigation-list {
   list-style: none;
+  width: 620px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user{
+  max-width: 320px;
+  margin-left: auto;
 }
 
 .contacts-phone{
