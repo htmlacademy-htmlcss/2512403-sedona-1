@@ -82,6 +82,21 @@ color: #000000;
   text-decoration: none;
 }
 
+.page-container {
+  width:1200px;
+  margin: 0 auto;
+}
+
+.greetings-picture{
+  display: block;
+  margin: 0 auto;
+}
+
+.greetings{
+  margin: 0 auto;
+  padding: 0;
+}
+
 .town {
   color: #000000;
   background-color: #ffffff;
@@ -91,6 +106,10 @@ color: #000000;
 }
 
 .advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   text-align: center;
   list-style: none;
 }
@@ -122,6 +141,7 @@ color: #000000;
 .invitation {
   font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
 }
@@ -129,10 +149,31 @@ color: #000000;
 .invitation-description {
   font-size: 22px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 .invitation-advertising{
+  margin: 0;
+  padding: 0;
   list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.invitation-advertising-item{
+  width: 400px;
+  height: 385px;
+}
+
+.invitation-advertising-item-living,
+.invitation-advertising-item-souvenir{
+  background-color:rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.invitation-advertising-item-food{
+  background-color:rgba(0, 0, 0, 0.2);
+  color: #000000;
 }
 
 .invitation-advertising-title {
@@ -151,6 +192,7 @@ color: #000000;
 }
 
 .hotel-search{
+  width: 592px;
   color: #000000;
   background-color: #ffffff;
 }
@@ -197,6 +239,7 @@ color: #000000;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  width: 404px;
 }
 
 .subscribe-invitation-description {
@@ -205,6 +248,7 @@ color: #000000;
   line-height: 26px;
   text-align: center;
   text-transform: none;
+  width: 592px;
 }
 
 .newsletter-form{
@@ -212,6 +256,11 @@ color: #000000;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+  width: 684px;
+}
+
+.newsletter-button{
+  width:684px ;
 }
 
 .page-footer {
@@ -219,6 +268,20 @@ color: #000000;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-contacts{
+  list-style: none;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  margin-right: 237px;
 }
 
 .navigation-list {
@@ -231,6 +294,15 @@ color: #000000;
 .navigation-user{
   max-width: 320px;
   margin-left: auto;
+}
+
+.contacts-address{
+  width: 331px;
+}
+
+.logo-footer{
+  margin-left: auto;
+  max-width: 115px;
 }
 
 .contacts-phone{
