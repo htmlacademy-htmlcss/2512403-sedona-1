@@ -55,6 +55,11 @@ body {
 color: #000000;
 }
 
+.page-header-logo{
+  width: 140px;
+  margin-right: 30px;
+}
+
 .navigation {
   display: flex;
   width: 1060px;
@@ -341,6 +346,19 @@ color: #000000;
 
 .breadcrumbs-link {
   color: inherit;
+}
+
+.catalog-central-column{
+  width: 1060px;
+}
+
+.catalog-sort-and-filter{
+  display: flex;
+}
+
+.catalog-filter{
+  width: 371px;
+  margin-right: 141px;
 }
 
 .catalog-filter-list {

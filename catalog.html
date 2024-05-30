@@ -8,7 +8,7 @@
   <body>
     <header class="page-header">
      <nav class="navigation">
-       <a class="navigation-logo" href="index.html">
+       <a class="page-header-logo" href="index.html">
          <img class="page-header-logo" src="images\catalog\header\logo.svg" width="138" height="64"  alt="Логотип Седона">
        </a>
         <ul class="navigation-list">
@@ -43,6 +43,7 @@
      </nav>
    </header>
    <main class="main-container main-inner">
+    <div class="page-container">
      <section class="hotels-filters">
        <h1 class="inner-header-title">Гостиницы Седоны</h1>
          <section class="breadcrumbs">
@@ -58,7 +59,7 @@
            </ul>
          </section>
          <section class="catalog-sort-and-filter">
-           <h2 class="visually-hidden">Фильтры услуг</h2>
+           <h2 class="visually-hidden" hidden>Фильтры услуг</h2>
            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
            <fieldset class="catalog-filter-group">
              <legend class="catalog-filter-title">Инфраструктура</legend>
@@ -110,6 +111,7 @@
           <button class="button-catalog" type="submit">Сбросить</button>
          </form>
         </section>
+     <div class="catalog-central-column">
      </section>
        <section class="hotels">
          <h2 class="visually-hidden">Отели</h2>
@@ -210,9 +212,12 @@
            </button>
          </form>
        </section>
+    </div>
+   </div>
    </main>
    <footer class="page-footer">
-     <ul class="navigation-list">
+    <div class="page-footer-container">
+     <ul class="footer-contacts">
        <li class="link-item">
          <a class="social-link" href="#">
            <img class="logo" src="images\catalog\footer\vectorvk.svg" width="24" height="14" alt="мы вконтакте">
@@ -232,7 +237,8 @@
      <address class="contacts-address">
        <a class="contacts-phone" href="tel:8(812)812-12-12">8(812)812-12-12</a>
      </address>
-     <img class="logo" src="images\catalog\footer\htmlacademy.svg" width="115" height="33" alt="html academy">
-   </footer>
+     <img class="logo-footer" src="images\catalog\footer\htmlacademy.svg" width="115" height="33" alt="html academy">
+    </div>
+    </footer>
   </body>
 </html>
