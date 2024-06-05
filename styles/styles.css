@@ -84,6 +84,7 @@ color: #000000;
 }
 
 .navigation-link {
+  padding: 32px 20px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -301,7 +302,9 @@ color: #000000;
 }
 
 .navigation-list {
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
   width: 620px;
   margin: 0;
   padding: 0;
