@@ -221,6 +221,8 @@ color: #000000;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  display: block;
+  width: 376px;
 }
 
 .subscribe {
@@ -259,7 +261,7 @@ color: #000000;
 }
 
 .newsletter-button {
-  width: 684px ;
+  width: 232px ;
 }
 
 .page-footer {
@@ -281,6 +283,10 @@ color: #000000;
   margin: 0;
   padding: 0;
   margin-right: 237px;
+}
+
+.link-item {
+  display: inline;
 }
 
 .navigation-list {
