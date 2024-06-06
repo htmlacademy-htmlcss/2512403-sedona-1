@@ -45,6 +45,8 @@ body {
 
 .main-container {
   flex-grow: 1;
+  padding-top: 52px;
+  padding-bottom: 83px;
 }
 
 .button {
@@ -55,6 +57,20 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #82B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 160px;
+}
+
+.button-want{
+  display: block;
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -93,6 +109,11 @@ color: #000000;
   text-decoration: none;
 }
 
+.navigation-list .navigation-user{
+  min-width: 18px;
+  min-height: 17px;
+}
+
 .page-container {
   width: 1200px;
   margin: 0 auto;
@@ -101,11 +122,15 @@ color: #000000;
 .greetings-picture {
   display: block;
   margin: 0 auto;
+  margin-bottom: 26px;
 }
 
 .greetings {
   margin: 0 auto;
   padding: 0;
+  margin-top: 69px;
+  padding-bottom: 69px;
+  margin-bottom: 21px;
 }
 
 .town {
