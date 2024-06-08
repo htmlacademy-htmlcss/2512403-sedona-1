@@ -67,6 +67,9 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
+  width: 160px;
+  min-height: 36px;
+  padding: 8px 34px;
 }
 
 .page-header {
@@ -333,7 +336,7 @@ color: #000000;
   background-size: 100% auto;
   background-repeat: no-repeat;
   width: 1200px;
-  height: 415px;
+  min-height: 415px;
 }
 
 
@@ -451,12 +454,19 @@ min-height: 52px;
   color: #000000;
 }
 
+
+.main-inner{
+  padding-top: 0;
+}
+
 .hotels-filters {
   background-image: url("../images/catalog/main/backgroundcatalog.jpg");
   color: #ffffff;
   background-color: #000000;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  width: 1200;
+  min-height: 412px;
 }
 
 .inner-header-title {
@@ -465,10 +475,17 @@ min-height: 52px;
   font-size: 60px;
   line-height: 78px;
   text-transform: capitalize;
+  margin-top: 38px;
+  margin-bottom: 8px;
+  margin-left: 70px;
 }
 
 .breadcrumbs-list {
   list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 70px;
 }
 
 .breadcrumbs {
@@ -477,6 +494,7 @@ min-height: 52px;
 
 .breadcrumbs-link {
   color: inherit;
+  margin-right: 28px;
 }
 
 .catalog-central-column {
@@ -485,6 +503,7 @@ min-height: 52px;
 
 .catalog-sort-and-filter {
   display: flex;
+  margin-left: 70px;
 }
 
 .catalog-filter {
@@ -511,9 +530,43 @@ min-height: 52px;
   color: #ffffff;
 }
 
+.sorting-container{
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  margin-bottom: 46px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  justify-content: space-between;
+}
+
+.sorting {
+  width: 292px;
+  min-height: 49px;
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  margin-bottom: 46px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  justify-content: space-between;
+}
+
+
 .product-card {
   list-style: none;
+  margin: 70px 40px;
 }
+
+.button-list{
+  display: flex;
+  color: #000000;
+  background-color: #ffffff;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+
 
 .button-current {
   font-size: 20px;
@@ -610,8 +663,13 @@ min-height: 52px;
 }
 
 .pagination {
+  display: flex;
   background-color: #ffffff;
   list-style: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .pagination-button {
@@ -622,6 +680,10 @@ min-height: 52px;
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  width: 60px;
+  height: 60px;
+  padding: 11px 24px;
+
 }
 
 .pagination-button-current {
@@ -639,4 +701,27 @@ min-height: 52px;
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.subscribe-invitation-catalog{
+  display: block;
+  color:#000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 404px;
+  padding: 96px 398px 20px 398px ;
+}
+
+.subscribe-invitation-description-catalog{
+  color: #000000;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: none;
+  width: 592px;
+  padding: 0 362px 54px 362px;
 }
