@@ -32,7 +32,7 @@ body {
   background-color: #ffffff ;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -56,7 +56,7 @@ body {
   width: 160px;
 }
 
-.button-want{
+.button-want {
   display: block;
   font-family: inherit;
   font-size: 20px;
@@ -132,7 +132,7 @@ color: #000000;
   margin-top: 57px ;
 }
 
-.greetings-description{
+.greetings-description {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -141,12 +141,12 @@ color: #000000;
   margin:69px 290px 25px 290px ;
 }
 
-.greetings-description-review{
+.greetings-description-review {
   width: 651px ;
   margin:0 275px 69px 275px;
 }
 
-.welcome{
+.welcome {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/index/main/indexbackground.jpg");
@@ -163,7 +163,7 @@ color: #000000;
   padding-bottom: 82px;
 }
 
-.advantages{
+.advantages {
   text-align: center;
   text-transform: uppercase;
   margin: 21px 0 0 0;
@@ -204,7 +204,7 @@ color: #000000;
   text-transform: uppercase;
 }
 
-.advantages-description{
+.advantages-description {
   margin: 0 85px 102px 85px;
 }
 
@@ -235,7 +235,7 @@ color: #000000;
   margin: 0 355px 64px 355px;
 }
 
-.advertising{
+.advertising {
   margin: 0;
   padding: 0;
   align-items: center
@@ -263,7 +263,7 @@ color: #000000;
   color: #000000;
 }
 
-.logo-invitation{
+.logo-invitation {
   margin: 82px 162px 0 162px;
 }
 
@@ -304,7 +304,7 @@ color: #000000;
   margin: 96px 451px 20px 451px;
 }
 
-.hotel-search-description{
+.hotel-search-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -374,7 +374,7 @@ color: #000000;
   align-items: baseline;
 }
 
-.field{
+.field {
 display: flex;
 min-width: 452px;
 min-height: 52px;
@@ -415,7 +415,7 @@ min-height: 52px;
   height: 40px;
 }
 
-.logo-footer{ width: 200px;
+.logo-footer { width: 200px;
   margin: 0;
   padding: 0;
   margin-left: 236px;
@@ -455,7 +455,7 @@ min-height: 52px;
 }
 
 
-.main-inner{
+.main-inner {
   padding-top: 0;
 }
 
@@ -530,7 +530,7 @@ min-height: 52px;
   color: #ffffff;
 }
 
-.sorting-container{
+.sorting-container {
   display: flex;
   color: #000000;
   background-color: #ffffff;
@@ -558,7 +558,7 @@ min-height: 52px;
   margin: 70px 40px;
 }
 
-.button-list{
+.button-list {
   display: flex;
   color: #000000;
   background-color: #ffffff;
@@ -703,7 +703,7 @@ min-height: 52px;
   background-repeat: no-repeat;
 }
 
-.subscribe-invitation-catalog{
+.subscribe-invitation-catalog {
   display: block;
   color:#000000;
   font-weight: 700;
@@ -715,7 +715,7 @@ min-height: 52px;
   padding: 96px 398px 20px 398px ;
 }
 
-.subscribe-invitation-description-catalog{
+.subscribe-invitation-description-catalog {
   color: #000000;
   font-weight: 400;
   font-size: 22px;
