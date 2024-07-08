@@ -21,7 +21,8 @@ html {
 }
 
 body {
-  margin: 0;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -170,16 +171,30 @@ color: #000000;
 }
 
 .advantages-list {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   text-align: center;
   list-style: none;
 }
 
+.advantages-image-terace {
+  grid-column: 2/4;
+  margin: 0;
+  padding: 0;
+  background-color:#FFFFFF;
+}
+
+.advantages-image-view {
+  grid-column: 1/3;
+  margin: 0;
+  padding: 0;
+  background-color:#FFFFFF;
+}
+
 .advantages-item {
-  width: 400px; ;
-  height: 385px;
+  padding: 102px 85px;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: none;
@@ -197,15 +212,16 @@ color: #000000;
 }
 
 .advantages-title {
-  margin: 102px 85px 62px 85px;
-  padding: 0 27;
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
 .advantages-description {
-  margin: 0 85px 102px 85px;
+  margin: 0 ;
+  padding: 0;
 }
 
 .invitation-welcome {
@@ -554,9 +570,22 @@ min-height: 52px;
 
 
 .product-card {
+  width: 340px;
+  display: grid;
   list-style: none;
   margin: 70px 40px;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
 }
+
+.product-card-item{
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  padding: 20px 20px 4px 20px;
+  flex-grow: 1;
+}
+
 
 .button-list {
   display: flex;
@@ -617,19 +646,32 @@ min-height: 52px;
   line-height: 28px;
   font-weight: 700;
   text-decoration: none;
+  padding: 16px 0;
+  text-align: left;
 }
 .product-card-name {
+  min-width: 140px;
+  min-height: 21px;
   font-weight: 400;
   text-decoration: none;
+  margin: 0 20px 16px 0;
 }
 
 .product-card-price {
+  min-width: 140px;
+  min-height: 21px;
   font-weight: 400;
   text-decoration: none;
   text-align: right;
 }
 
+.card-inside{
+  margin: 0 0 16px 0;
+}
+
 .product-card-button {
+  width: 140px;
+  height: 36px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -638,9 +680,12 @@ min-height: 52px;
   background-color: #756157;
   text-transform: uppercase;
   text-align: center;
+  margin: 0 20px 0 0;
 }
 
 .button-favorites {
+  width: 140px;
+  height: 36px;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -649,6 +694,10 @@ min-height: 52px;
   background-color: #82B3D3;
   text-transform: uppercase;
   text-align: center;
+}
+
+.product-star-rating{
+  margin: 0 20px 0 0;
 }
 
 .product-card-rating {
